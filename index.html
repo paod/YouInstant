@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Youtube Instant Search</title>
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.3.1/css/foundation.min.css">
+	</head>
+	<body>
+		<div id="topsection" class="row">
+			<div class="small-3 columns">
+				<h3 style='font-family: "Courier, monospace"; display:inline; color:red'>You</h3><h4 style="display:inline;">Instant</h4>
+			</div>
+			<div class="small-9 columns">
+				<input type="text" id="query" value="cp3">
+			</div>
+		</div>
+		
+
+		<div id="videosection" class="row">
+			<div class="small-9 columns">
+				<div id="playercontainer">
+					<div id="player">
+					</div>
+				</div>
+
+				<button type="submit" id="loadmore" class="alert" style="display:none">Load More</button>
+
+				<div id="footer" class="row">
+		    		<div class="small-12 columns">
+						<h4 style="color:red">Author&nbsp;&nbsp;</h4><h4> Daniel P.</h4>
+					</div>
+		    	</div>
+			</div>
+
+			<div id="search-container-sidebar" class="small-3 columns">				
+			</div>
+    	</div>
+
+    	
+
+		<script src="js/main.js"></script>
+		<script src="js/googleapisetup.js"></script>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.1.0/lodash.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/foundation/5.3.1/js/foundation/foundation.min.js"></script>
+		<script src="https://apis.google.com/js/client.js?onload=onClientLoad" type="text/javascript"></script>
+	</body>
+</html>
