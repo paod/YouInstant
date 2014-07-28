@@ -61,6 +61,7 @@ var YouTubeClient = (function() {
         
 
         var throttledGetNextVideos = _.throttle(function(){
+            $('#search-container-sidebar').html('');
             getNextVideos();
         }, 1000);
         loadmoreelement.click(throttledGetNextVideos);
