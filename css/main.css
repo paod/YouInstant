@@ -20,18 +20,32 @@
 
 /* styling the top section */
 #topsection {
-	margin-top: 5%;
+	margin-top: -8%;
+	margin-left: 5%;
+	position: fixed;
 }
 
 /* styling the videos in the video section */
 #videosection {
-	margin-top: 3%;
+	margin-top: 12%;
+}
+
+#video-container {
+	position: fixed;
+}
+
+#search-container-sidebar {
+	margin-top: -15%;
 }
 
 /* style the load more videos button */
 #loadmore {
 	width: 640px;
 	margin-top: 5%;
+}
+
+#query {
+	width: 80%;
 }
 
 #footer {
